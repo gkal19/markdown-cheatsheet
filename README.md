@@ -4,6 +4,7 @@ Folha de Consulta do Markdown
 ## About
 This repository is a translation from English to Portuguese of Brazil that was shown in the [official repository](https://github.com/tchapi/markdown-cheatsheet)
 
+## Sobre
 Este repositório é uma tradução do Inglês para o Português do Brasil que foi mostrado no [repositório oficial](https://github.com/tchapi/markdown-cheatsheet)
 
 - - - - 
