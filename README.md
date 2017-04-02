@@ -1,140 +1,128 @@
-Markdown Cheatsheet
+Folha de Consulta do Markdown
 ===================
 
 - - - - 
 
-# Heading 1 #
+# Título 1 #
 
-    Markup :  # Heading 1 #
+    Markup :  # Título 1 #
 
-    -OR-
+    -OU-
 
-    Markup :  ============= (below H1 text)
+    Markup :  ============= (Abaixo do Texto H1)
 
-## Heading 2 ##
+## Título 2 ##
 
-    Markup :  ## Heading 2 ##
+    Markup :  ## Título 2 ##
 
-    -OR-
+    -OU-
 
-    Markup: --------------- (below H2 text)
+    Markup: --------------- (Abaixo do Texto H2)
 
-### Heading 3 ###
+### Título 3 ###
 
-    Markup :  ### Heading 3 ###
+    Markup :  ### Título 3 ###
 
-#### Heading 4 ####
+#### Título 4 ####
 
-    Markup :  #### Heading 4 ####
+    Markup :  #### Título 4 ####
 
 
-Common text
+Texto Comum
 
-    Markup :  Common text
+    Markup :  Texto Comum
 
-_Emphasized text_
+_Texto Enfatizado_
 
-    Markup :  _Emphasized text_ or *Emphasized text*
+    Markup :  _Texto Enfatizado_ ou *Texto Enfatizado*
 
-~~Strikethrough text~~
+~~Texto Tachado~~
 
-    Markup :  ~~Strikethrough text~~
+    Markup :  ~~Texto Tachado~~
 
-__Strong text__
+__Texto Foute__
 
-    Markup :  __Strong text__ or **Strong text**
+    Markup :  __Texto Foute__ ou **Texto Foute**
 
-___Strong emphasized text___
+___Texto enfatizado foute___
 
-    Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
+    Markup :  ___Texto enfatizado foute___ ou ***Texto enfatizado foute***
 
-[Named Link](http://www.google.fr/) and http://www.google.fr/ or <http://example.com/>
+[Link nomeado](http://www.google.com/) and http://www.google.com/ ou <http://example.com/>
 
-    Markup :  [Named Link](http://www.google.fr/) and http://www.google.fr/ or <http://example.com/>
+    Markup :  [Link nomeado](http://www.google.com/) and http://www.google.com/ ou <http://example.com/>
 
-Table, like this one :
+Tabela :
 
-First Header  | Second Header
+Primeiro Título  | Segundo Título
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Conteúdo  | Conteúdo
+Conteúdo  | Conteúdo
 
 ```
-First Header  | Second Header
+Primeiro Título  | Segundo Título
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Conteúdo  | Conteúdo
+Conteúdo  | Conteúdo
 ```
 
-`code()`
+`Código/Script`
 
     Markup :  `code()`
 
-```javascript
-    var specificLanguage_code = 
-    {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test Transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
-            }
-        }
-    }
+```python
+    print("Teste de código!");
 ```
 
-    Markup : ```javascript
+    Markup : ```javascript/python/html/shell/ruby/etc...
+          Seu código aqui
              ```
 
-* Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
-* Bullet list item 2
+* Lista de pontos
+    * Ponto aninhado
+        * Ponto sub-aninhado
+* Lista de Pontos 2
 
 ~~~
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+ Markup : * Lista de pontos
+    * Ponto aninhado
+        * Ponto sub-aninhado
+* Lista de Pontos 2
 ~~~
 
-1. A numbered list
-    1. A nested numbered list
-    2. Which is numbered
-2. Which is numbered
+1. Lista de número
+    1. Número aninhado
+    2. Número sub-aninhado
+2. Lista de número 2
 
 ~~~
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+ Markup : 1. Lista de número
+    1. Número aninhado
+    2. Número sub-aninhado
+2. Lista de número 2
 ~~~
 
-- [ ] An uncompleted task
-- [x] A completed task
+- [ ] Tarefa Incompleta
+- [x] Tarefa Completa
 
 ~~~
- Markup : - [ ] An uncompleted task
-          - [x] A completed task
+ Markup : - [ ] Tarefa Incompleta
+- [x] Tarefa Completa
 ~~~
 
-> Blockquote
->> Nested blockquote
+> Bloco de Citação
+>> Bloco de Citação Aninhado
 
-    Markup :  > Blockquote
-              >> Nested Blockquote
+    Markup :  > Bloco de Citação
+>> Bloco de Citação Aninhado
 
-_Horizontal line :_
+_Linha Houizontal :_
 - - - -
 
     Markup :  - - - -
 
-_Image with alt :_
+_Imagem com atributo `alt`:_
 
-![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
+![Imagem com atributo `alt`](http://www.brightlightpictures.com/assets/images/poutfolio/thethaw_header.jpg "Título é opcional")
 
-    Markup : ![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Title is optional")
+    Markup : ![Imagem com atributo `alt`](http://www.brightlightpictures.com/assets/images/poutfolio/thethaw_header.jpg "Título é opcional")
