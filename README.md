@@ -146,6 +146,6 @@ _Linha Houizontal :_
 
 _Imagem com atributo `alt`:_
 
-![Imagem com atributo `alt`](http://www.brightlightpictures.com/assets/images/poutfolio/thethaw_header.jpg "Título é opcional")
+![Imagem com atributo `alt`](https://images5.alphacoders.com/523/523521.jpg "Título é opcional")
 
-    Markup : ![Imagem com atributo `alt`](http://www.brightlightpictures.com/assets/images/poutfolio/thethaw_header.jpg "Título é opcional")
+    Markup : ![Imagem com atributo `alt`](https://images5.alphacoders.com/523/523521.jpg "Título é opcional")
